@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-tool",
+  "name": "handover-document",
   "main": "src/index.js",
   "compatibility_date": "2026-11-01",
   // 画面（HTML/CSS/JS）は public/ をそのまま配信する。/api/* だけ Worker が処理する
