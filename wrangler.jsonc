@@ -2,5 +2,12 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "my-tool",
   "main": "src/index.js",
-  "compatibility_date": "2026-11-01"
+  "compatibility_date": "2026-11-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "handover-db",
+      "database_id": "cfbc1359-1718-48a6-8c93-aa13cbf439d2"
+    }
+  ]
 }
